@@ -39,29 +39,25 @@ const Sidebar = () => {
             <span className="text-sm italic">Machakos University</span><br/>
             <span className="text-xs">(2017-2022)</span>
         </p>
-          <ul className="icons-socials flex text-xs">
-              <li className="flex mx-1">
-                  <a href="#">
-                    <img src={github} alt=""/>
-                    <label>Githubs</label>
+          <ul className="icons-socials flex text-xs justify-around mt-4">
+              <li className="flex mr-4">
+                  <a href="https://github.com/alikulaOwen">
+                    <img className= "h-7 w-7" src={github} alt=""/>
                   </a>
               </li>
-              <li className="flex mx-1">
+              <li className="flex mr-4">
                   <a href="#">
-                    <img src={twitter} alt=""/>
-                    <label>Twitter</label>
+                    <img className= "h-7 w-7" src={twitter} alt=""/>
                   </a>
               </li>
-              <li className="flex mx-1">
+              <li className="flex mr-4">
                   <a href="#">
-                    <img src={linkedin} alt=""/>
-                    <label>LinkedIn</label>
+                    <img className= "h-7 w-7" src={linkedin} alt=""/>
                   </a>
               </li>
-              <li className="flex mx-1">
+              <li className="flex">
                   <a href="#">
-                    <img src={stackoverflow} alt="stackoverflow"/>
-                    <label>StackOverflow</label>
+                    <img className= "h-7 w-7" src={stackoverflow} alt="stackoverflow"/>
                   </a>
               </li>
           </ul>
